@@ -70,7 +70,10 @@
 
             pkgs.mkShell {
 
-              packages = [ pythonEnv ];
+              packages = [
+                pythonEnv
+                pkgs.texliveFull
+              ];
 
             };
         }
