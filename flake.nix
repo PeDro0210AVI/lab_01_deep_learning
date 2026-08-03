@@ -40,6 +40,8 @@
 
                   torch
                   pycatch22
+
+                  kagglehub
                 ];
               pythonEnv = pkgs.python3.withPackages pythonPackages;
             in
